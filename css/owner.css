@@ -220,52 +220,10 @@
                     font-weight: 500;
                 }
                 
-                .card-projects-image-1 {
+                .card-projects-image {
                     grid-area: image;
-                    background: url('../img/projects/currency.jpg');
                     border-top-left-radius: 15px;
                     border-top-right-radius: 15px;
-                    background-size: cover;
-                }
-                
-                .card-projects-image-2 {
-                    grid-area: image;
-                    background: url('../img/projects/lol.jpg');
-                    border-top-left-radius: 15px;
-                    border-top-right-radius: 15px;
-                    background-size: cover;
-                }
-                
-                .card-projects-image-3 {
-                    grid-area: image;
-                    background: url('../img/projects/todo.jpg');
-                    border-top-left-radius: 15px;
-                    border-top-right-radius: 15px;
-                    background-size: cover;
-                }
-                
-                .card-projects-image-4 {
-                    grid-area: image;
-                    background: url('../img/projects/imc.jpg');
-                    border-top-left-radius: 15px;
-                    border-top-right-radius: 15px;
-                    background-size: cover;
-                }
-                
-                .card-projects-image-5 {
-                    grid-area: image;
-                    background: url('../img/projects/site-restaurant.PNG');
-                    border-top-left-radius: 15px;
-                    border-top-right-radius: 15px;
-                    background-size: cover;
-                }
-                
-                .card-projects-image-6 {
-                    grid-area: image;
-                    background: url('../img/projects/ionic.PNG');
-                    border-top-left-radius: 15px;
-                    border-top-right-radius: 15px;
-                    background-size: cover;
                 }
                 
                 .tecnology {
