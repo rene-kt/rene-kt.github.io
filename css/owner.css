@@ -154,13 +154,12 @@
                 }
                 
                 .section-projects {
-                    width: 100vw;
-                    height: 100vh;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     background: #131313;
                     overflow: hidden;
+                    flex-wrap: wrap;
                 }
                 
                 .card-projects {
@@ -245,6 +244,14 @@
                     background-size: cover;
                 }
                 
+                .card-projects-image-4 {
+                    grid-area: image;
+                    background: url('../img/projects/imc.jpg');
+                    border-top-left-radius: 15px;
+                    border-top-right-radius: 15px;
+                    background-size: cover;
+                }
+                
                 .tecnology {
                     color: rgb(144, 6, 238);
                     font-size: 13px;
@@ -280,7 +287,7 @@
                     .card-projects {
                         display: grid;
                         grid-template-columns: 100%;
-                        grid-template-rows: 310px 210px 80px;
+                        grid-template-rows: 310px 210px 100%;
                         grid-template-areas: "image""text""stats";
                         border-radius: 18px;
                         background: white;
