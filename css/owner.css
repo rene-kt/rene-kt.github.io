@@ -252,6 +252,22 @@
                     background-size: cover;
                 }
                 
+                .card-projects-image-5 {
+                    grid-area: image;
+                    background: url('../img/projects/site-restaurant.PNG');
+                    border-top-left-radius: 15px;
+                    border-top-right-radius: 15px;
+                    background-size: cover;
+                }
+                
+                .card-projects-image-6 {
+                    grid-area: image;
+                    background: url('../img/projects/ionic.PNG');
+                    border-top-left-radius: 15px;
+                    border-top-right-radius: 15px;
+                    background-size: cover;
+                }
+                
                 .tecnology {
                     color: rgb(144, 6, 238);
                     font-size: 13px;
