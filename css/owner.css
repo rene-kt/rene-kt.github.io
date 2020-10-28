@@ -258,6 +258,11 @@
                         justify-content: center;
                         height: 100%;
                     }
+                    .title-project {
+                        font-weight: 800;
+                        color: #fff;
+                        letter-spacing: 1;
+                    }
                     .card-projects {
                         display: grid;
                         grid-template-columns: 100%;
