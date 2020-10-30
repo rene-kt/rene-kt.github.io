@@ -319,10 +319,6 @@
                                                         font-size: 2rem;
                                                     }
                                                     
-                                                    .contact-icons i:hover {
-                                                        color: #9006EE;
-                                                    }
-                                                    
                                                     @media only screen and (max-device-width: 800px) {
                                                         .home-content {
                                                             position: relative;
