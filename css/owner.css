@@ -271,18 +271,19 @@
                                                     
                                                     .contact-content {
                                                         text-align: justify;
+                                                        padding-left: 10%;
                                                     }
                                                     
                                                     .contact-content h2 {
                                                         text-transform: uppercase;
                                                         font-weight: 1000;
                                                         text-align: center;
-                                                        letter-spacing: 3px;
+                                                        letter-spacing: 5px;
                                                         padding: 15px;
                                                     }
                                                     
                                                     .contact-content p {
-                                                        font-size: 18px;
+                                                        font-size: 1rem;
                                                     }
                                                     
                                                     .image-text {
@@ -290,13 +291,14 @@
                                                         justify-content: space-between;
                                                     }
                                                     
-                                                    .contact-image {
-                                                        justify-content: flex-start;
+                                                    .contact-box .contact-image {
+                                                        display: flex;
+                                                        justify-content: center;
                                                     }
                                                     
-                                                    .contact-image img {
-                                                        height: 90%;
-                                                        width: 90%;
+                                                    .contact-box .contact-image img {
+                                                        width: 100%;
+                                                        height: auto;
                                                     }
                                                     
                                                     .contact-bg {
