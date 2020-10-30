@@ -83,3 +83,15 @@
     .imgBx {
         position: relative;
     }
+    
+    .about-me {
+        justify-content: center;
+        align-items: center;
+        margin: 5%;
+    }
+    
+    .about-me p {
+        color: #fff;
+        font-size: 1.2rem;
+        text-align: justify;
+    }
