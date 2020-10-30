@@ -1,318 +1,346 @@
-                                        body {
-                                            font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-                                            overflow-x: hidden;
-                                        }
-                                        
-                                        h1,
-                                        h2,
-                                        h3,
-                                        h4,
-                                        h5,
-                                        h6 {
-                                            font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-                                            font-weight: 700;
-                                        }
-                                        
-                                        .section-home {
-                                            padding: 0;
-                                            margin: 0;
-                                            box-sizing: border-box;
-                                            position: relative;
-                                            widows: 100%;
-                                            min-height: 100vh;
-                                            background: #131313;
-                                            display: flex;
-                                            justify-content: space-between;
-                                            align-items: center;
-                                        }
-                                        
-                                        .section-home:before {
-                                            content: '';
-                                            position: absolute;
-                                            top: 0;
-                                            left: 0;
-                                            width: 100%;
-                                            height: 100%;
-                                            background: #9006EE;
-                                            clip-path: polygon(46% 0, 100% 0%, 100% 100%, 100% 82%);
-                                        }
-                                        
-                                        .home-content {
-                                            position: relative;
-                                            padding: 100px 50px 100px 150px;
-                                            box-sizing: border-box;
-                                        }
-                                        
-                                        .home-content h2 {
-                                            color: #fff;
-                                            font-size: 3em;
-                                            font-weight: 800;
-                                            margin-bottom: 50px;
-                                        }
-                                        
-                                        .home-content h3 {
-                                            color: #fff;
-                                            font-size: 1.3em;
-                                            font-weight: 300;
-                                            margin-bottom: 50px;
-                                        }
-                                        
-                                        .home-content strong {
-                                            color: #9006ee;
-                                            font-size: 1.3em;
-                                            font-weight: 800;
-                                        }
-                                        
-                                        .home-content p {
-                                            color: #fff;
-                                            font-size: 1.2em;
-                                        }
-                                        
-                                        .home-content .botao {
-                                            position: relative;
-                                            display: inline-block;
-                                            padding: 15px 30px;
-                                            margin-top: 20px;
-                                            background: #9006EE;
-                                            color: #fff;
-                                            text-transform: uppercase;
-                                            text-decoration: none;
-                                            font-size: 0.95em;
-                                            font-weight: 700;
-                                        }
-                                        
-                                        .imgBx {
-                                            position: relative;
-                                            height: auto;
-                                            display: flex;
-                                            justify-content: flex-end;
-                                        }
-                                        
-                                        .about-me {
-                                            justify-content: center;
-                                            align-items: center;
-                                            margin: 5%;
-                                        }
-                                        
-                                        .about-me p {
-                                            color: #fff;
-                                            font-size: 1.2rem;
-                                            text-align: justify;
-                                        }
-                                        
-                                        .box-section {
-                                            margin: 0;
-                                            padding: 0;
-                                            display: flex;
-                                            justify-content: center;
-                                            align-items: center;
-                                        }
-                                        
-                                        .container-box {
-                                            display: flex;
-                                            flex-wrap: wrap;
-                                            justify-content: space-between;
-                                        }
-                                        
-                                        .container-box .box {
-                                            position: relative;
-                                            width: 270px;
-                                            padding: 40px;
-                                            background: #fff;
-                                            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-                                            border-radius: 25px;
-                                            box-sizing: border-box;
-                                            overflow: hidden;
-                                            text-align: center;
-                                            margin: 20px;
-                                        }
-                                        
-                                        .container-box .box .icon-box {
-                                            position: relative;
-                                            color: #9006EE;
-                                            display: flex;
-                                            justify-content: center;
-                                            align-items: center;
-                                            margin-bottom: 5%;
-                                            font-size: 25px;
-                                            transition: 1s;
-                                        }
-                                        
-                                        .zoom {
-                                            overflow: hidden;
-                                            position: relative;
-                                        }
-                                        
-                                        .zoom:hover {
-                                            -moz-transform: scale(1.02);
-                                            -webkit-transform: scale(1.02);
-                                            transform: scale(1.02);
-                                            cursor: pointer;
-                                        }
-                                        
-                                        .skills-title {
-                                            margin-top: 5%;
-                                            font-weight: 800;
-                                            font-size: 2em;
-                                        }
-                                        
-                                        .section-projects {
-                                            display: flex;
-                                            align-items: center;
-                                            justify-content: center;
-                                            background: #131313;
-                                            overflow: hidden;
-                                            flex-wrap: wrap;
-                                        }
-                                        
-                                        .subtitle {
-                                            font-size: 20px;
-                                            color: aliceblue;
-                                            font-weight: 500;
-                                        }
-                                        
-                                        .card-projects {
-                                            display: grid;
-                                            grid-template-columns: 350px;
-                                            grid-template-rows: 310px 210px 50px;
-                                            grid-template-areas: "image""text""stats";
-                                            border-radius: 18px;
-                                            background: white;
-                                            text-align: center;
-                                            transition: 0.2s ease;
-                                            cursor: pointer;
-                                            margin: 10px;
-                                            transition: 0.2s ease;
-                                        }
-                                        
-                                        .card-projects-image {
-                                            grid-area: image;
-                                        }
-                                        
-                                        .card-projects-text {
-                                            grid-area: text;
-                                            margin: 25px;
-                                        }
-                                        
-                                        .card-projects-stats {
-                                            font-size: 10px;
-                                            grid-area: stats;
-                                            display: grid;
-                                            grid-template-columns: 1fr;
-                                            grid-template-rows: 1fr;
-                                            border-bottom-left-radius: 15px;
-                                            border-bottom-right-radius: 15px;
-                                            background: rgb(144, 6, 238);
-                                        }
-                                        
-                                        .card-projects-stats .stat {
-                                            display: flex;
-                                            align-items: center;
-                                            justify-content: center;
-                                            flex-direction: column;
-                                            padding: 10px;
-                                            color: white;
-                                        }
-                                        
-                                        .card-projects-stats .stat:hover {
-                                            color: #131313;
-                                        }
-                                        
-                                        .card-projects-stats .type {
-                                            font-size: 11px;
-                                            font-weight: 300;
-                                            text-transform: uppercase;
-                                        }
-                                        
-                                        .card-projects-stats .value {
-                                            font-size: 22px;
-                                            font-weight: 500;
-                                        }
-                                        
-                                        .card-projects-image {
-                                            grid-area: image;
-                                            border-top-left-radius: 15px;
-                                            border-top-right-radius: 15px;
-                                        }
-                                        
-                                        .tecnology {
-                                            color: rgb(144, 6, 238);
-                                            font-size: 13px;
-                                        }
-                                        
-                                        .card-projects-text p {
-                                            color: grey;
-                                            font-size: 15px;
-                                            font-weight: 300;
-                                        }
-                                        
-                                        .card-projects-text h2 {
-                                            margin-top: 0px;
-                                            font-size: 28px;
-                                        }
-                                        
-                                        @media only screen and (max-device-width: 800px) {
-                                            .home-content {
-                                                position: relative;
-                                                width: 100%;
-                                            }
-                                            .imgBx {
-                                                display: none;
-                                            }
-                                            body {
-                                                overflow-x: hidden;
-                                            }
-                                            .section-projects {
-                                                display: block;
-                                                justify-content: center;
-                                                height: 100%;
-                                            }
-                                            .title-project {
-                                                font-weight: 800;
-                                                color: #fff;
-                                                letter-spacing: 1;
-                                            }
-                                            .card-projects {
-                                                display: grid;
-                                                grid-template-columns: 100%;
-                                                grid-template-rows: 310px 210px 100%;
-                                                grid-template-areas: "image""text""stats";
-                                                border-radius: 18px;
-                                                background: white;
-                                                box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
-                                                font-family: roboto;
-                                                text-align: center;
-                                                cursor: pointer;
-                                                margin: 15px;
-                                            }
-                                            .container-box {
-                                                display: block;
-                                                justify-content: center;
-                                                left: 50%;
-                                                right: 50%;
-                                            }
-                                            .card-projects-image {
-                                                grid-area: image;
-                                            }
-                                            .card-projects-image-1 {
-                                                grid-area: image;
-                                                background: url('../img/projects/currency.jpg');
-                                                border-top-left-radius: 15px;
-                                                border-top-right-radius: 15px;
-                                                background-size: cover;
-                                            }
-                                            .card-projects-image-2 {
-                                                grid-area: image;
-                                                background: url('../img/projects/lol.jpg');
-                                                border-top-left-radius: 15px;
-                                                border-top-right-radius: 15px;
-                                                background-size: cover;
-                                            }
-                                            .card-projects-image-3 {
-                                                grid-area: image;
-                                                background: url('../img/projects/todo.jpg');
-                                                border-top-left-radius: 15px;
-                                                border-top-right-radius: 15px;
-                                                background-size: cover;
-                                            }
-                                        }
+                                                    body {
+                                                        font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                                        overflow-x: hidden;
+                                                    }
+                                                    
+                                                    h1,
+                                                    h2,
+                                                    h3,
+                                                    h4,
+                                                    h5,
+                                                    h6 {
+                                                        font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                                        font-weight: 700;
+                                                    }
+                                                    
+                                                    .section-home {
+                                                        padding: 0;
+                                                        margin: 0;
+                                                        box-sizing: border-box;
+                                                        position: relative;
+                                                        widows: 100%;
+                                                        min-height: 100vh;
+                                                        background: #131313;
+                                                        display: flex;
+                                                        justify-content: space-between;
+                                                        align-items: center;
+                                                    }
+                                                    
+                                                    .section-home:before {
+                                                        content: '';
+                                                        position: absolute;
+                                                        top: 0;
+                                                        left: 0;
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        background: #9006EE;
+                                                        clip-path: polygon(46% 0, 100% 0%, 100% 100%, 100% 82%);
+                                                    }
+                                                    
+                                                    .home-content {
+                                                        position: relative;
+                                                        padding: 100px 50px 100px 150px;
+                                                        box-sizing: border-box;
+                                                    }
+                                                    
+                                                    .home-content h2 {
+                                                        color: #fff;
+                                                        font-size: 3em;
+                                                        font-weight: 800;
+                                                        margin-bottom: 50px;
+                                                    }
+                                                    
+                                                    .home-content h3 {
+                                                        color: #fff;
+                                                        font-size: 1.3em;
+                                                        font-weight: 300;
+                                                        margin-bottom: 50px;
+                                                    }
+                                                    
+                                                    .home-content strong {
+                                                        color: #9006ee;
+                                                        font-size: 1.3em;
+                                                        font-weight: 800;
+                                                    }
+                                                    
+                                                    .home-content p {
+                                                        color: #fff;
+                                                        font-size: 1.2em;
+                                                    }
+                                                    
+                                                    .home-content .botao {
+                                                        position: relative;
+                                                        display: inline-block;
+                                                        padding: 15px 30px;
+                                                        margin-top: 20px;
+                                                        background: #9006EE;
+                                                        color: #fff;
+                                                        text-transform: uppercase;
+                                                        text-decoration: none;
+                                                        font-size: 0.95em;
+                                                        font-weight: 700;
+                                                    }
+                                                    
+                                                    .imgBx {
+                                                        position: relative;
+                                                        height: auto;
+                                                        display: flex;
+                                                        justify-content: flex-end;
+                                                    }
+                                                    
+                                                    .about-me {
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        margin: 5%;
+                                                    }
+                                                    
+                                                    .about-me p {
+                                                        color: #fff;
+                                                        font-size: 1.2rem;
+                                                        text-align: justify;
+                                                    }
+                                                    
+                                                    .box-section {
+                                                        margin: 0;
+                                                        padding: 0;
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                    }
+                                                    
+                                                    .container-box {
+                                                        display: flex;
+                                                        flex-wrap: wrap;
+                                                        justify-content: space-between;
+                                                    }
+                                                    
+                                                    .container-box .box {
+                                                        position: relative;
+                                                        width: 270px;
+                                                        padding: 40px;
+                                                        background: #fff;
+                                                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                                                        border-radius: 25px;
+                                                        box-sizing: border-box;
+                                                        overflow: hidden;
+                                                        text-align: center;
+                                                        margin: 20px;
+                                                    }
+                                                    
+                                                    .container-box .box .icon-box {
+                                                        position: relative;
+                                                        color: #9006EE;
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        margin-bottom: 5%;
+                                                        font-size: 25px;
+                                                        transition: 1s;
+                                                    }
+                                                    
+                                                    .zoom {
+                                                        overflow: hidden;
+                                                        position: relative;
+                                                    }
+                                                    
+                                                    .zoom:hover {
+                                                        -moz-transform: scale(1.02);
+                                                        -webkit-transform: scale(1.02);
+                                                        transform: scale(1.02);
+                                                        cursor: pointer;
+                                                    }
+                                                    
+                                                    .skills-title {
+                                                        margin-top: 5%;
+                                                        font-weight: 800;
+                                                        font-size: 2em;
+                                                    }
+                                                    
+                                                    .section-projects {
+                                                        display: flex;
+                                                        align-items: center;
+                                                        justify-content: center;
+                                                        background: #131313;
+                                                        overflow: hidden;
+                                                        flex-wrap: wrap;
+                                                    }
+                                                    
+                                                    .subtitle {
+                                                        font-size: 20px;
+                                                        color: aliceblue;
+                                                        font-weight: 500;
+                                                    }
+                                                    
+                                                    .card-projects {
+                                                        display: grid;
+                                                        grid-template-columns: 350px;
+                                                        grid-template-rows: 310px 210px 50px;
+                                                        grid-template-areas: "image""text""stats";
+                                                        border-radius: 18px;
+                                                        background: white;
+                                                        text-align: center;
+                                                        transition: 0.2s ease;
+                                                        cursor: pointer;
+                                                        margin: 10px;
+                                                        transition: 0.2s ease;
+                                                    }
+                                                    
+                                                    .card-projects-image {
+                                                        grid-area: image;
+                                                    }
+                                                    
+                                                    .card-projects-text {
+                                                        grid-area: text;
+                                                        margin: 25px;
+                                                    }
+                                                    
+                                                    .card-projects-stats {
+                                                        font-size: 10px;
+                                                        grid-area: stats;
+                                                        display: grid;
+                                                        grid-template-columns: 1fr;
+                                                        grid-template-rows: 1fr;
+                                                        border-bottom-left-radius: 15px;
+                                                        border-bottom-right-radius: 15px;
+                                                        background: rgb(144, 6, 238);
+                                                    }
+                                                    
+                                                    .card-projects-stats .stat {
+                                                        display: flex;
+                                                        align-items: center;
+                                                        justify-content: center;
+                                                        flex-direction: column;
+                                                        padding: 10px;
+                                                        color: white;
+                                                    }
+                                                    
+                                                    .card-projects-stats .stat:hover {
+                                                        color: #131313;
+                                                    }
+                                                    
+                                                    .card-projects-stats .type {
+                                                        font-size: 11px;
+                                                        font-weight: 300;
+                                                        text-transform: uppercase;
+                                                    }
+                                                    
+                                                    .card-projects-stats .value {
+                                                        font-size: 22px;
+                                                        font-weight: 500;
+                                                    }
+                                                    
+                                                    .card-projects-image {
+                                                        grid-area: image;
+                                                        border-top-left-radius: 15px;
+                                                        border-top-right-radius: 15px;
+                                                    }
+                                                    
+                                                    .tecnology {
+                                                        color: rgb(144, 6, 238);
+                                                        font-size: 13px;
+                                                    }
+                                                    
+                                                    .card-projects-text p {
+                                                        color: grey;
+                                                        font-size: 15px;
+                                                        font-weight: 300;
+                                                    }
+                                                    
+                                                    .card-projects-text h2 {
+                                                        margin-top: 0px;
+                                                        font-size: 28px;
+                                                    }
+                                                    
+                                                    .contact-section {
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                    }
+                                                    
+                                                    .contact-box {
+                                                        position: relative;
+                                                        width: 80%;
+                                                        height: 90%;
+                                                        padding: 40px;
+                                                        background: #fff;
+                                                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                                                        border-radius: 25px;
+                                                        box-sizing: border-box;
+                                                        overflow: hidden;
+                                                        display: flex;
+                                                        justify-content: space-between;
+                                                    }
+                                                    
+                                                    .contact-image {
+                                                        justify-content: flex-start;
+                                                    }
+                                                    
+                                                    .contact-image img {
+                                                        width: 50%;
+                                                    }
+                                                    
+                                                    @media only screen and (max-device-width: 800px) {
+                                                        .home-content {
+                                                            position: relative;
+                                                            width: 100%;
+                                                        }
+                                                        .imgBx {
+                                                            display: none;
+                                                        }
+                                                        body {
+                                                            overflow-x: hidden;
+                                                        }
+                                                        .section-projects {
+                                                            display: block;
+                                                            justify-content: center;
+                                                            height: 100%;
+                                                        }
+                                                        .title-project {
+                                                            font-weight: 800;
+                                                            color: #fff;
+                                                            letter-spacing: 1;
+                                                        }
+                                                        .card-projects {
+                                                            display: grid;
+                                                            grid-template-columns: 100%;
+                                                            grid-template-rows: 310px 210px 100%;
+                                                            grid-template-areas: "image""text""stats";
+                                                            border-radius: 18px;
+                                                            background: white;
+                                                            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+                                                            font-family: roboto;
+                                                            text-align: center;
+                                                            cursor: pointer;
+                                                            margin: 15px;
+                                                        }
+                                                        .container-box {
+                                                            display: block;
+                                                            justify-content: center;
+                                                            left: 50%;
+                                                            right: 50%;
+                                                        }
+                                                        .card-projects-image {
+                                                            grid-area: image;
+                                                        }
+                                                        .card-projects-image-1 {
+                                                            grid-area: image;
+                                                            background: url('../img/projects/currency.jpg');
+                                                            border-top-left-radius: 15px;
+                                                            border-top-right-radius: 15px;
+                                                            background-size: cover;
+                                                        }
+                                                        .card-projects-image-2 {
+                                                            grid-area: image;
+                                                            background: url('../img/projects/lol.jpg');
+                                                            border-top-left-radius: 15px;
+                                                            border-top-right-radius: 15px;
+                                                            background-size: cover;
+                                                        }
+                                                        .card-projects-image-3 {
+                                                            grid-area: image;
+                                                            background: url('../img/projects/todo.jpg');
+                                                            border-top-left-radius: 15px;
+                                                            border-top-right-radius: 15px;
+                                                            background-size: cover;
+                                                        }
+                                                    }
