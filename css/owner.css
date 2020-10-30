@@ -1,5 +1,6 @@
     body {
         font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        overflow-x: hidden;
     }
     
     h1,
@@ -94,4 +95,55 @@
         color: #fff;
         font-size: 1.2rem;
         text-align: justify;
+    }
+    
+    .box-section {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    
+    .container-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .container-box .box {
+        position: relative;
+        width: 270px;
+        padding: 40px;
+        background: #fff;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 25px;
+        box-sizing: border-box;
+        overflow: hidden;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .container-box .box .icon-box {
+        position: relative;
+        color: #9006EE;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5%;
+        font-size: 25px;
+        transition: 1s;
+    }
+    
+    .zoom {
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .zoom:hover {
+        -moz-transform: scale(1.02);
+        -webkit-transform: scale(1.02);
+        transform: scale(1.02);
+        cursor: pointer;
     }
