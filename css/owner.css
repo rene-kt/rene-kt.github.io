@@ -260,13 +260,32 @@
                                                     .contact-box {
                                                         position: relative;
                                                         width: 80%;
-                                                        height: 90%;
+                                                        height: auto;
                                                         padding: 40px;
                                                         background: #fff;
-                                                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                                                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
                                                         border-radius: 25px;
                                                         box-sizing: border-box;
                                                         overflow: hidden;
+                                                    }
+                                                    
+                                                    .contact-content {
+                                                        text-align: justify;
+                                                    }
+                                                    
+                                                    .contact-content h2 {
+                                                        text-transform: uppercase;
+                                                        font-weight: 1000;
+                                                        text-align: center;
+                                                        letter-spacing: 3px;
+                                                        padding: 15px;
+                                                    }
+                                                    
+                                                    .contact-content p {
+                                                        font-size: 18px;
+                                                    }
+                                                    
+                                                    .image-text {
                                                         display: flex;
                                                         justify-content: space-between;
                                                     }
@@ -276,7 +295,30 @@
                                                     }
                                                     
                                                     .contact-image img {
-                                                        width: 50%;
+                                                        height: 90%;
+                                                        width: 90%;
+                                                    }
+                                                    
+                                                    .contact-bg {
+                                                        padding: 3rem 0;
+                                                        background: rgba(144, 6, 238, 1);
+                                                    }
+                                                    
+                                                    .contact-icons {
+                                                        display: flex;
+                                                        justify-content: flex-end;
+                                                    }
+                                                    
+                                                    .contact-icons div {
+                                                        padding: 2rem 1rem 0 0;
+                                                    }
+                                                    
+                                                    .contact-icons i {
+                                                        font-size: 2rem;
+                                                    }
+                                                    
+                                                    .contact-icons i:hover {
+                                                        color: #9006EE;
                                                     }
                                                     
                                                     @media only screen and (max-device-width: 800px) {
