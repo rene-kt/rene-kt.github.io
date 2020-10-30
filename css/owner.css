@@ -1,0 +1,85 @@
+    body {
+        font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 700;
+    }
+    
+    .section-home {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        position: relative;
+        widows: 100%;
+        min-height: 100vh;
+        background: #131313;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .section-home:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #9006EE;
+        clip-path: polygon(46% 0, 100% 0%, 100% 100%, 100% 82%);
+    }
+    
+    .home-content {
+        position: relative;
+        padding: 100px 50px 100px 150px;
+        box-sizing: border-box;
+    }
+    
+    .home-content h2 {
+        color: #fff;
+        font-size: 3em;
+        font-weight: 800;
+        margin-bottom: 50px;
+    }
+    
+    .home-content h3 {
+        color: #fff;
+        font-size: 1.3em;
+        font-weight: 300;
+        margin-bottom: 50px;
+    }
+    
+    .home-content strong {
+        color: #9006ee;
+        font-size: 1.3em;
+        font-weight: 800;
+    }
+    
+    .home-content p {
+        color: #fff;
+        font-size: 1.2em;
+    }
+    
+    .home-content .botao {
+        position: relative;
+        display: inline-block;
+        padding: 15px 30px;
+        margin-top: 20px;
+        background: #9006EE;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 0.95em;
+        font-weight: 700;
+    }
+    
+    .imgBx {
+        position: relative;
+    }
