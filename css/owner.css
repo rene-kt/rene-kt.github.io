@@ -206,7 +206,7 @@
                     color: white;
                 }
                 
-                .card-projects-stats .stat i:hover {
+                .card-projects-stats .stat:hover {
                     color: #131313;
                 }
                 
