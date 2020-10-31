@@ -111,7 +111,7 @@
                                                     .container-box {
                                                         display: flex;
                                                         flex-wrap: wrap;
-                                                        justify-content: space-between;
+                                                        justify-content: center;
                                                     }
                                                     
                                                     .container-box .box {
@@ -352,12 +352,6 @@
                                                             text-align: center;
                                                             cursor: pointer;
                                                             margin: 15px;
-                                                        }
-                                                        .container-box {
-                                                            display: block;
-                                                            justify-content: center;
-                                                            left: 50%;
-                                                            right: 50%;
                                                         }
                                                         .card-projects-image {
                                                             grid-area: image;
