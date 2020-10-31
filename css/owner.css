@@ -147,3 +147,9 @@
         transform: scale(1.02);
         cursor: pointer;
     }
+    
+    .skills-title {
+        margin: 5%;
+        font-weight: 800;
+        font-size: 2em;
+    }
