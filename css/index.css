@@ -35,10 +35,6 @@
     
     .contact-icons i {
         font-size: 2em;
-        color: #131313;
-    }
-    
-    .contact-icons i:hover {
         color: #fff;
     }
     
@@ -51,11 +47,4 @@
         color: #fff;
         font-size: 2vh;
         font-weight: 700;
-    }
-    
-    @media only screen and (max-device-width: 800px) {
-        .contact-icons i {
-            font-size: 2em;
-            color: #fff;
-        }
     }
