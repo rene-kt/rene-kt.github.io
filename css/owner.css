@@ -395,10 +395,8 @@
                         }
                         .contact-icons {
                             display: flex;
-                            justify-content: flex-end;
-                        }
-                        .contact-icons div {
-                            padding: 2rem 1rem 0 0;
+                            justify-content: center !important;
+                            align-items: center !important;
                         }
                         .contact-icons i {
                             font-size: 2rem;
