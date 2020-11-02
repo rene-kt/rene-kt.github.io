@@ -27,8 +27,7 @@
 
 
     <!-- LightBox Css -->
-    <link rel="stylesheet" href="css/lightbox.css">
-    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/aos.css">
 
 
 
@@ -102,15 +101,15 @@
 
     <!-- Sobre Section -->
     <section class="page-section bg-primary" style="background-color: #9006EE;" id="about">
-        <h2 class="text-white text-center">About me!</h2>
+        <h2 class="text-white text-center" data-aos="fade-down" data-as>About me!</h2>
         <hr class="divider light my-4">
 
         <div class="about-me">
-            <p>
+            <p data-aos="fade-down" data-aos-duration="1500">
                 I'm backend developer, though I can design and build websites like this, I rather do the backend stuff. However, when it's necessary, I am able to make a good job.
             </p>
 
-            <p>I have been programming since I was 14 (2018), My first language was Java, and it continues as my main Programming Language. Nowadays, I'm getting into Flutter's world: studying and doing projects that you can check it out on my GitHub</p>
+            <p data-aos="fade-down" data-aos-duration="2000">I have been programming since I was 14 (2018), My first language was Java, and it continues as my main Programming Language. Nowadays, I'm getting into Flutter's world: studying and doing projects that you can check it out on my GitHub</p>
 
         </div>
         </div>
@@ -130,21 +129,21 @@
 
 
         <div class="container-box container row">
-            <div class="box zoom ">
+            <div class="box zoom " class="box zoom" data-aos="fade-in" data-aos-duration="2000">
                 <div class="icon-box"><i class="fab fa-java fa-3x"></i></div>
                 <div class="content">
                     <h3>Java</h3>
                     <p>A OOP programming language, highly scalable. Code once, run everywhere. </p>
                 </div>
             </div>
-            <div class="box zoom">
+            <div class="box zoom" data-aos="fade-in" data-aos-duration="2200">
                 <div class="icon-box"><i class="fas fa-leaf fa-3x"></i></div>
                 <div class="content">
                     <h3>Spring </h3>
                     <p>A Java's framework that injects dependencies on the application. </p>
                 </div>
             </div>
-            <div class="box zoom">
+            <div class="box zoom" data-aos="fade-in" data-aos-duration="2400">
                 <div class="icon-box"><i class="fas fa-database fa-3x"></i></div>
                 <div class="content">
                     <h3>Hibernate</h3>
@@ -152,7 +151,7 @@
                 </div>
             </div>
 
-            <div class="box zoom">
+            <div class="box zoom" data-aos="fade-in" data-aos-duration="2600">
                 <div class="icon-box"><i class="fas fa-server fa-3x"></i></div>
                 <div class="content">
                     <h3>SQL</h3>
@@ -161,7 +160,7 @@
             </div>
 
 
-            <div class="box zoom">
+            <div class="box zoom" data-aos="fade-in" data-aos-duration="2800">
                 <div class="icon-box"><i class="fas fa-mobile fa-3x"></i></div>
                 <div class="content">
                     <h3>Dart/Flutter</h3>
@@ -171,7 +170,7 @@
 
 
 
-            <div class="box zoom">
+            <div class="box zoom" data-aos="fade-in" data-aos-duration="3000">
                 <div class="icon-box"><i class="fab fa-html5 fa-3x"></i></div>
                 <div class="content">
                     <h3>HTML/CSS/JS</h3>
@@ -189,7 +188,7 @@
     <section id="projects">
         <div class="page-section" style="background-color: #131313;">
 
-            <div>
+            <div data-aos="fade-down" data-aos-duration="1500">
                 <h2 class="text-white text-center " style="letter-spacing: 1rem;">PORTFOLIO</h2>
                 <hr class="divider light my-4">
                 <p class="subtitle text-center">FRONTEND AND APPS</p>
@@ -197,7 +196,7 @@
 
             </div>
 
-            <div class="section-projects">
+            <div class="section-projects" data-aos="fade-up" data-aos-duration="2000">
 
                 <div class="card-projects">
                     <div class="card-projects-image" style="background: url('img/projects/currency.jpg'); background-size: cover;"></div>
@@ -319,7 +318,7 @@
                 <div class="card-projects-text">
                     <span class="tecnology">JAVA | SPRING | JWT | AWS | REST API </span>
                     <h2>E-commerce w/spring</h2>
-                    <p>projects do chef de cozinha francês Eric Jacquin, jurada do MasterChef , o local é especialidade em comidas gourmet.
+                    <p>Backend of the ionic application,</p>
                     </p>
                 </div>
 
@@ -449,6 +448,15 @@
 
 
     <!-- Bootstrap core JavaScript -->
+
+
+    <script src="js/aos.js"></script>
+
+    <script>
+        AOS.init({
+
+        });
+    </script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
