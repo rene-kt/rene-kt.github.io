@@ -344,7 +344,7 @@
                         .card-projects {
                             display: grid;
                             grid-template-columns: 100%;
-                            grid-template-rows: 310px 210px 100%;
+                            grid-template-rows: 310px 230px 100%;
                             grid-template-areas: "image""text""stats";
                             border-radius: 18px;
                             background: white;
