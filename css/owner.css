@@ -319,6 +319,12 @@
                         font-size: 2rem;
                     }
                     
+                    @media only screen and (max-device-width: 1100px) {
+                        .imgBx {
+                            display: none;
+                        }
+                    }
+                    
                     @media only screen and (max-device-width: 800px) {
                         .home-content {
                             position: relative;
