@@ -171,6 +171,12 @@
                         font-weight: 500;
                     }
                     
+                    .text-demo {
+                        font-size: 0.8rem;
+                        color: rgba(255, 255, 255, 0.8);
+                        font-style: italic;
+                    }
+                    
                     .card-projects {
                         display: grid;
                         grid-template-columns: 350px;
