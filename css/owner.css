@@ -401,12 +401,16 @@
                             grid-template-rows: 310px 230px 100%;
                             grid-template-areas: "image""text""stats";
                             border-radius: 18px;
-                            background: white;
+                            background: #15141B;
                             box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
                             font-family: roboto;
                             text-align: center;
                             cursor: pointer;
                             margin: 15px;
+                        }
+                        .card-projects p {
+                            color: grey;
+                            font-weight: 700;
                         }
                         .contact-section {
                             display: flex;
